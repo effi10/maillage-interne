@@ -1,4 +1,4 @@
-# Plugin WordPress - Maillage Interne Intelligente
+# Plugin WordPress - Maillage Interne Intelligent
 
 ## Description
 
@@ -149,7 +149,7 @@ maillage-interne-intelligente/
 ## Compatibilité
 
 - WordPress 6.0+
-- PHP 8.0+
+- PHP 7.4+
 - Gutenberg/Block Editor
 - Multisite compatible
 
@@ -159,27 +159,6 @@ Pour toute question ou problème :
 1. Vérifiez la documentation
 2. Consultez les logs d'erreur WordPress
 3. Testez vos clés API dans l'interface d'administration
-
-## Développement
-
-### Prérequis
-
-- Node.js 16+
-- npm ou yarn
-- wp-scripts (pour le build des assets JavaScript)
-
-### Build
-
-```bash
-npm install
-npm run build
-```
-
-### Mode développement
-
-```bash
-npm run start
-```
 
 ## Changelog
 
