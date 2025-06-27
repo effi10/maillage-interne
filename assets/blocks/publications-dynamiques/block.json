@@ -1,0 +1,57 @@
+{
+  "apiVersion": 2,
+  "name": "mii/publications-dynamiques",
+  "title": "Publications Dynamiques",
+  "category": "widgets",
+  "icon": "admin-post",
+  "description": "Affiche des publications selon différents critères.",
+  "keywords": ["posts", "articles", "similaire"],
+  "editorScript": "file:../../js/blocks.js",
+  "editorStyle": "file:../../css/blocks-editor.css",
+  "style": "file:../../css/blocks.css",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "selectionMode": {
+      "type": "string",
+      "default": "search"
+    },
+    "postType": {
+      "type": "string",
+      "default": "post"
+    },
+    "searchQuery": {
+      "type": "string",
+      "default": ""
+    },
+    "taxonomy": {
+      "type": "string",
+      "default": "category"
+    },
+    "term": {
+      "type": "string",
+      "default": ""
+    },
+    "similarityCount": {
+      "type": "number",
+      "default": 5
+    },
+    "numberOfElements": {
+      "type": "number",
+      "default": 0
+    },
+    "showFeaturedImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayType": {
+      "type": "string",
+      "default": "grid"
+    },
+    "columns": {
+      "type": "number",
+      "default": 2
+    }
+  }
+}

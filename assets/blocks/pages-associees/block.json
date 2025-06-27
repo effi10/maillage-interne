@@ -1,0 +1,37 @@
+{
+  "apiVersion": 2,
+  "name": "mii/pages-associees",
+  "title": "Pages Associées",
+  "category": "widgets",
+  "icon": "admin-links",
+  "description": "Affiche les pages enfants ou sœurs de la page actuelle.",
+  "keywords": ["pages", "enfants", "navigation"],
+  "editorScript": "file:../../js/blocks.js",
+  "editorStyle": "file:../../css/blocks-editor.css",
+  "style": "file:../../css/blocks.css",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "relationType": {
+      "type": "string",
+      "default": "children"
+    },
+    "numberOfElements": {
+      "type": "number",
+      "default": 0
+    },
+    "showFeaturedImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayType": {
+      "type": "string",
+      "default": "grid"
+    },
+    "columns": {
+      "type": "number",
+      "default": 2
+    }
+  }
+}
