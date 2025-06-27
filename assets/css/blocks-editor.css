@@ -1,0 +1,180 @@
+.wp-block-mii-pages-associees .mii-block-preview,
+.wp-block-mii-publications-dynamiques .mii-block-preview {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.wp-block-mii-pages-associees .mii-block-preview::before,
+.wp-block-mii-publications-dynamiques .mii-block-preview::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    animation: float 20s infinite linear;
+    pointer-events: none;
+}
+
+@keyframes float {
+    0% { transform: translateX(-50px) translateY(-50px); }
+    100% { transform: translateX(-50px) translateY(-70px); }
+}
+
+.wp-block-mii-pages-associees .mii-block-preview h4,
+.wp-block-mii-publications-dynamiques .mii-block-preview h4 {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.wp-block-mii-pages-associees .mii-block-preview p,
+.wp-block-mii-publications-dynamiques .mii-block-preview p {
+    color: rgba(255,255,255,0.9);
+    font-size: 16px;
+    margin: 8px 0;
+    font-weight: 400;
+}
+
+/* Styles spécifiques pour l'éditeur */
+.block-editor-page .mii-posts-list {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.block-editor-page .mii-post-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.block-editor-page .mii-post-title a {
+    color: #0073aa;
+    pointer-events: none;
+}
+
+/* Panneau d'inspection */
+.components-panel__body .components-base-control {
+    margin-bottom: 16px;
+}
+
+.components-panel__body .components-base-control__label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.components-color-palette {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.components-color-palette__item {
+    margin: 2px;
+}
+
+/* Radio controls custom styling */
+.components-radio-control__input[type="radio"] {
+    margin-right: 8px;
+}
+
+.components-radio-control__option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* Range control styling */
+.components-range-control {
+    margin-bottom: 20px;
+}
+
+.components-range-control__slider {
+    background: #0073aa;
+}
+
+/* Toggle control styling */
+.components-toggle-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.components-toggle-control .components-toggle-control__label {
+    margin-left: 12px;
+}
+
+/* Select control styling */
+.components-select-control__input {
+    background: white;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.components-select-control__input:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+/* Text control styling */
+.components-text-control__input {
+    background: white;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.components-text-control__input:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+/* Panel body custom styling */
+.components-panel__body {
+    border-bottom: 1px solid #e2e4e7;
+}
+
+.components-panel__body:last-child {
+    border-bottom: none;
+}
+
+.components-panel__body-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Help text styling */
+.components-base-control__help {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+/* Responsive preview indication */
+@media (max-width: 768px) {
+    .wp-block-mii-pages-associees .mii-block-preview::after,
+    .wp-block-mii-publications-dynamiques .mii-block-preview::after {
+        content: '📱 Mode responsive';
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: rgba(255,255,255,0.2);
+        padding: 4px 8px;
+        border-radius: 12px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+}

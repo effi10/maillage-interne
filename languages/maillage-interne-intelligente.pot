@@ -1,0 +1,543 @@
+# Plugin Maillage Interne Intelligente
+# Copyright (C) 2025
+# This file is distributed under the same license as the Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Maillage Interne Intelligente 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-22 16:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: maillage-interne-intelligente.php
+msgid "Maillage Interne"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Paramètres"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Embeddings"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Traitement en cours..."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Succès"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Erreur"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Êtes-vous sûr de vouloir supprimer tous les embeddings ?"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Paramètres sauvegardés avec succès."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Oui"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Non"
+msgstr ""
+
+#: includes/class-blocks.php
+msgid "Aucune page trouvée."
+msgstr ""
+
+#: includes/class-blocks.php
+msgid "Aucune publication trouvée."
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Accès non autorisé"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Aucun type de contenu sélectionné"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "%d embeddings générés sur %d publications au total."
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "%d erreurs rencontrées."
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Tous les embeddings ont été supprimés."
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Embeddings supprimés pour le type de contenu: %s"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Erreur lors de la suppression"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Fournisseur ou clé API manquante"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Clé API invalide"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Paramètres API sauvegardés"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Taxonomie non spécifiée"
+msgstr ""
+
+#: includes/class-api-client.php
+msgid "Connexion réussie"
+msgstr ""
+
+#: includes/class-api-client.php
+msgid "Erreur de connexion"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Paramètres du Maillage Interne"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Nombre d'éléments par défaut"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "0 = tous les éléments"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Taille d'image par défaut"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Miniature"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Moyenne"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Grande"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Pleine taille"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Ratio d'image par défaut"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Balise HTML par défaut pour les titres"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Nombre de colonnes par défaut"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Point de bascule responsive (px)"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "En dessous de cette largeur, l'affichage passe en liste"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Couleur des titres"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Couleur des excerpts"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Application automatique"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Appliquer ces réglages par défaut aux nouveaux blocs automatiquement"
+msgstr ""
+
+#: admin/settings-page.php
+msgid "Sauvegarder les paramètres"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Gestion des Embeddings"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Clés API"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Calcul des embeddings"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Statistiques"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Configuration des API"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Fournisseur d'embedding"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Configuration OpenAI"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Clé API OpenAI"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Obtenez votre clé API sur platform.openai.com"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Modèle OpenAI"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Configuration Google Gemini"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Clé API Gemini"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Obtenez votre clé API sur ai.google.dev"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Modèle Gemini"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Mise à jour automatique"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Types de contenu à mettre à jour automatiquement"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Les embeddings seront recalculés automatiquement lors de la création/mise à jour de ces types de contenu"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Tester la connexion"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Sauvegarder les paramètres API"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Types de contenu à traiter"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Forcer la régénération"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Recalculer même si les embeddings existent déjà"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Calculer les embeddings"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Supprimer tous les embeddings"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Progression"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Statistiques des embeddings"
+msgstr ""
+
+#: admin/embeddings-page.php
+msgid "Actualiser les statistiques"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Pages Associées"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Affiche les pages enfants ou sœurs de la page actuelle"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "pages"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "enfants"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "navigation"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Publications Dynamiques"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Affiche des publications selon différents critères"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "posts"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "articles"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "similaire"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Paramètres de relation"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Type de relation"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Pages enfants"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Pages sœurs"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Nombre d'éléments"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "0 = tous les éléments"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Image à la une"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Afficher l'image à la une"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Taille d'image"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Ratio d'image"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Recadrage"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Position de l'image"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Haut"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Bas"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Gauche"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Droite"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Titre"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Balise HTML"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Couleur du titre"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Extrait"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Afficher l'extrait"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Nombre de mots maximum"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Couleur de l'extrait"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Affichage"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Type d'affichage"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Liste"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Grille"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Nombre de colonnes"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Espacement"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Marge haute (px)"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Marge basse (px)"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Padding haut (px)"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Padding bas (px)"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Type:"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Affichage:"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "colonnes"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Éléments:"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Tous"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Paramètres de sélection"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Type de contenu"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Mode de sélection"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Recherche"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Taxonomie"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Similarité sémantique"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Mot-clé de recherche"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Entrer un mot-clé..."
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Terme"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Sélectionner un terme..."
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Nombre d'éléments similaires"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Nombre d'éléments à afficher"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "0 = tous les résultats"
+msgstr ""
+
+#: assets/js/blocks.js
+msgid "Mode:"
+msgstr ""
