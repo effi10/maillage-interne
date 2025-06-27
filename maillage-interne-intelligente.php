@@ -62,6 +62,7 @@ class MaillageInterneIntelligente {
         require_once MII_PLUGIN_PATH . 'includes/class-ajax.php';
         require_once MII_PLUGIN_PATH . 'includes/class-similarity.php';
         require_once MII_PLUGIN_PATH . 'includes/class-api-client.php';
+		require_once MII_PLUGIN_PATH . 'includes/class-blocks-register.php';
     }
 
     public function activate() {
